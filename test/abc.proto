@@ -7,7 +7,7 @@ import "google/protobuf/any.proto";
 option go_package = "test";
 
 message ABC {
-    option (cosmos_proto.interface_type) = "github.com/regen-network/cosmos-proto/test/iface.Msg";
+    option (cosmos_proto.interface_type) = "github.com/interchained/cosmos-proto/test/iface.Msg";
     oneof sum {
         A a = 1;
         B b = 2;
@@ -16,7 +16,7 @@ message ABC {
 }
 
 message ABCNonPointer {
-    option (cosmos_proto.interface_type) = "*github.com/regen-network/cosmos-proto/test/iface.Msg";
+    option (cosmos_proto.interface_type) = "*github.com/interchained/cosmos-proto/test/iface.Msg";
     oneof sum {
         A a = 1;
         B b = 2;
