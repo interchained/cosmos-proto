@@ -5,7 +5,7 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/gogo/protobuf/protoc-gen-gogo/descriptor"
 	"github.com/gogo/protobuf/protoc-gen-gogo/generator"
-	"github.com/regen-network/cosmos-proto"
+	"github.com/interchained/cosmos-proto"
 	"strings"
 )
 
