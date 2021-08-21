@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/gogo/protobuf/vanity"
 	"github.com/gogo/protobuf/vanity/command"
-	_ "github.com/regen-network/cosmos-proto/interfacetype"
+	_ "github.com/interchained/cosmos-proto/interfacetype"
 )
 
 func main() {
